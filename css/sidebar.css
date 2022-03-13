@@ -1,0 +1,6 @@
+#sidebar{
+    background:rgb(136, 136, 16);
+    grid-area:sidebar;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}

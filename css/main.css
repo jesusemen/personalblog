@@ -1,0 +1,36 @@
+@import url(nav.css);
+@import url(sidebar.css);
+@import url(main.css);
+@import url(rightbar.css);
+@import url(content1.css);
+@import url(content2.css);
+@import url(content3.css);
+@import url(content4.css);
+@import url(footer.css);
+
+
+:root {
+    --main-radius:25px;
+    --main-padding:15px;
+}
+
+
+.container{
+    display:grid;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.7fr 1.2fr 0.8fr;
+    grid-template-areas:
+    "nav nav  nav nav"
+    "sidebar main main rightbar"
+    "content1 content2 content3 content4"
+    "footer footer footer footer";
+    grid-gap:0.7em;
+}
+
+main {
+    background:lightcoral;
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}

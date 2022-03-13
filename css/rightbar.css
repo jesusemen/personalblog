@@ -1,0 +1,6 @@
+#rightbar{
+    background:rgb(175, 175, 32);
+    grid-area: rightbar;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}

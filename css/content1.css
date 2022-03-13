@@ -1,0 +1,6 @@
+#content1{
+    background:#eeeeee;
+    grid-area:content1;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}    
