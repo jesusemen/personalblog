@@ -8,7 +8,9 @@
 @import url(content4.css);
 @import url(footer.css);
 
-
+/* body {
+    margin:0;
+} */
 :root {
     --main-radius:25px;
     --main-padding:15px;
@@ -33,4 +35,21 @@ main {
     grid-area: main;
     border-radius: var(--main-radius);
     padding: var(--main-padding);
+}
+
+@media only screen and (max-width:550px){
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.7fr 2.2fr 0.7fr 1.2fr 1.2fr 1.2fr 1.2fr 0.3fr;
+        grid-template-areas: 
+        "nav"
+        "sidebar"
+        "main"
+        "rightbar"
+        "content1"
+        "content2"
+        "content3"
+        "content4"
+        "footer";
+    }
 }

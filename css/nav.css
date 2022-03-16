@@ -1,6 +1,27 @@
 nav{
-    background: lightblue;
+    background:#3C5f5E;
     grid-area: nav;
-    border-radius: var(--main-radius);
+    display:flex;
+    justify-content:space-around;
     padding: var(--main-padding);
+    color:lightcyan;
+    border-radius:10px;
+    flex-direction: row;
+    
+   
+
+}
+
+#menu li{
+  
+    
+    
+}
+
+#menu a{
+    display:block;
+    list-style-type:none;
+    color: aliceblue;
+    text-decoration:none;
+    
 }
