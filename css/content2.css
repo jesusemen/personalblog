@@ -1,6 +1,44 @@
 #content2{
     background:#eeeeee;
     grid-area:content2;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
+    border-radius: 3px 15px  15px 0;
+    padding:20px;
+    
+}
+#title{
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:5px;
+
+}
+
+
+.profile-image{
+border-radius: 50%;
+width:20px;
+margin-right:5px;
+
+}
+
+.blog-img{
+    width:100%;
+    height:200px;
+    border-radius: 10px;
+    align-content: center;
+    
+}
+
+#img{
+    margin-bottom: 10px;
+}
+#desc{
+    margin-bottom: 10px;
+}
+
+button{
+    background: maroon;
+    border-style: none;
+    border:none;
+    color: #eee;
+    border-radius:3px;
 }

@@ -1,6 +1,11 @@
 #sidebar{
-    background:rgb(136, 136, 16);
+    background:#eee;
     grid-area:sidebar;
-    border-radius: var(--main-radius);
+    border-radius: 3px 15px  15px 0;
     padding: var(--main-padding);
+    border-left:maroon 3px solid;
+}
+
+.sidebar li{
+    display: list-item;
 }

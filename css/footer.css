@@ -1,6 +1,16 @@
 footer{
-    background:orange;
+    display:flex;
+    background:#223a39;
     grid-area:footer;
-    border-radius: var(--main-radius);
+    width: 100%;
     padding: var(--main-padding);
+    margin:0;
+    color: aliceblue;
+    justify-content: center;
 }
+    
+
+
+/* .footnote{
+    align-content:center;
+} */

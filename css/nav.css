@@ -5,8 +5,9 @@ nav{
     justify-content:space-between;
     padding: var(--main-padding);
     color:lightcyan;
-    border-radius:10px;
     flex-direction: row;
+    width: 100%;
+   
     
    
 
